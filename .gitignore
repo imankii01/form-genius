@@ -1,0 +1,21 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Build and test artifacts
+dist/
+coverage/
+.DS_Store
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.iml

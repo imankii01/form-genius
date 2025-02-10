@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.22.0",
+    "email-validator": "^2.0.4",
+    "phone": "^3.1.58",
+    "url-regex": "^5.0.0",
+    "validator": "^13.12.0"
+  }
+}
