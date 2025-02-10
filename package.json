@@ -1,9 +1,65 @@
 {
+  "name": "form-genius",
+  "version": "1.0.0",
+  "description": "🚀 AI-powered, dynamic, and customizable form validation for Node.js. Supports unlimited fields, auto-detection, real-time validation, and AI-based corrections.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js",
+    "build": "echo 'Building...'",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imankii01/form-genius.git"
+  },
+  "homepage": "https://github.com/imankii01/form-genius#readme",
+  "bugs": {
+    "url": "https://github.com/imankii01/form-genius/issues"
+  },
+  "keywords": [
+    "form-validation",
+    "ai-powered-validation",
+    "nodejs-form-validation",
+    "express-form-validation",
+    "dynamic-form-validation",
+    "password-strength-checker",
+    "email-validation",
+    "phone-number-validation",
+    "fraud-detection",
+    "spam-protection",
+    "input-sanitization",
+    "real-time-validation",
+    "regex-validation",
+    "secure-validation",
+    "data-cleaning",
+    "npm-package",
+    "form-genius"
+  ],
+  "author": {
+    "name": "Ankit",
+    "email": "private.ankit047@gmail.com",
+    "url": "https://github.com/imankii01"
+  },
+  "license": "MIT",
   "dependencies": {
     "@tensorflow/tfjs": "^4.22.0",
     "email-validator": "^2.0.4",
     "phone": "^3.1.58",
     "url-regex": "^5.0.0",
-    "validator": "^13.12.0"
+    "validator": "^13.12.0",
+    "typo-js": "^1.2.4",
+    "axios": "^1.3.5"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "chai": "^5.1.0",
+    "eslint": "^8.53.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "funding": {
+    "type": "buymeacoffee",
+    "url": "https://www.buymeacoffee.com/imankii01"
   }
 }
